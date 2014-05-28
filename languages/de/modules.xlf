@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/catalogs/languages/de/modules.php" source-language="en">
+    <body>
+      <trans-unit id="MOD.catalogs.0">
+        <source>Catalogs</source>
+        <target>Kataloge</target>
+      </trans-unit>
+      <trans-unit id="FMD.catalogs">
+        <source>Catalogs</source>
+        <target>Kataloge</target>
+      </trans-unit>
+      <trans-unit id="FMD.catalogslist.0">
+        <source>Catalog list</source>
+        <target>Katalog-Liste</target>
+      </trans-unit>
+      <trans-unit id="FMD.catalogslist.1">
+        <source>Lists all entries of a catalog.</source>
+        <target>Zeigt alle Einträge eines Katalogs an.</target>
+      </trans-unit>
+      <trans-unit id="FMD.catalogsdetails.0">
+        <source>Catalog Details</source>
+        <target>Katalog-Details</target>
+      </trans-unit>
+      <trans-unit id="FMD.catalogsdetails.1">
+        <source>Shows all details of the choosen catalog entry.</source>
+        <target>Zeigt alle Details des ausgewählten Katalogeintrags an.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

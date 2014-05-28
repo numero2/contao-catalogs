@@ -1,0 +1,166 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/catalogs/languages/de/tl_catalogs_entries.php" source-language="en">
+    <body>
+      <trans-unit id="tl_catalogs_entries.new.0">
+        <source>New entry</source>
+        <target>Neuer Eintrag</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.new.1">
+        <source>Create a new entry</source>
+        <target>Einen neuen Eintrag erstellen</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.edit.0">
+        <source>Edit entry</source>
+        <target>Eintrag bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.edit.1">
+        <source>Edit entry ID %s</source>
+        <target>Eintrag ID %s bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.editheader.0">
+        <source>Edit entry</source>
+        <target>Eintrag bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.editheader.1">
+        <source>Edit entry ID %s</source>
+        <target>Eintrag ID %s bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.delete.0">
+        <source>Delete entry</source>
+        <target>Eintrag löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.delete.1">
+        <source>Delete entry ID %s</source>
+        <target>Eintrag ID %s löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.toggle.0">
+        <source>Publish / unpublish</source>
+        <target>Veröffentlichen / nicht veröffentlichen</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.toggle.1">
+        <source>Toggle the visibility of entry ID %s</source>
+        <target>Die Sichtbarkeit des Eintrags ID %s ändern</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.title_legend">
+        <source>Title and description</source>
+        <target>Titel und Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.title.0">
+        <source>Title</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.title.1">
+        <source>Please enter a title.</source>
+        <target>Bitte geben Sie einen Titel ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.alias.0">
+        <source>Alias</source>
+        <target>Alias</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.alias.1">
+        <source>Will be generated automatically.</source>
+        <target>Wird automatisch generiert.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.teaser.0">
+        <source>Teaser</source>
+        <target>Teaser</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.teaser.1">
+        <source>Please enter a teaser.</source>
+        <target>Bitte geben Sie einen Teaser ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.description.0">
+        <source>Description</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.description.1">
+        <source>Please enter a description.</source>
+        <target>Bitte geben Sie eine Beschreibung ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.singleSRC.0">
+        <source>Image</source>
+        <target>Bild</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.singleSRC.1">
+        <source>Please choose an image for this entry.</source>
+        <target>Bitte wählen Sie ein Bild für diesen Eintrag aus.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.adress_legend">
+        <source>Address</source>
+        <target>Adressdaten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.street.0">
+        <source>Street</source>
+        <target>Strasse</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.street.1">
+        <source>Please enter the name of the street and no.</source>
+        <target>Bitte geben Sie den Namen der Strasse und Hausnummer.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.postal.0">
+        <source>Postal Code</source>
+        <target>Postleitzahl</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.postal.1">
+        <source>Please enter the postal code.</source>
+        <target>Bitte geben Sie die Postleitzahl ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.city.0">
+        <source>City</source>
+        <target>Stadt</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.city.1">
+        <source>Please enter the city.</source>
+        <target>Bitte geben Sie die Stadt ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.country.0">
+        <source>Country</source>
+        <target>Land</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.country.1">
+        <source>Please select the country.</source>
+        <target>Bitte wählen Sie das Land aus.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.geo_legend">
+        <source>Coordinates</source>
+        <target>Koordinaten</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.geo_explain">
+        <source>The coordinates will be needed if showing the entry in a Google map.</source>
+        <target>Die geographischen Koordinaten werden benötigt um den Standort ggf. in einer Google-Map anzeigen zu können.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.longitude.0">
+        <source>Longitude</source>
+        <target>Längengrad</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.longitude.1">
+        <source>Will be generated automatically.</source>
+        <target>Wird automatisch ausgefüllt.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.latitude.0">
+        <source>Latitude</source>
+        <target>Breitengrad</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.latitude.1">
+        <source>Will be generated automatically.</source>
+        <target>Wird automatisch ausgefüllt.</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.map">
+        <source>Map view</source>
+        <target>Kartenansicht</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.publish_legend">
+        <source>Publishing</source>
+        <target>Veröffentlichung</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.published.0">
+        <source>Publish?</source>
+        <target>Veröffentlichen?</target>
+      </trans-unit>
+      <trans-unit id="tl_catalogs_entries.published.1">
+        <source>Please check if this entry should be published.</source>
+        <target>Bitte wählen Sie ob dieser Eintrag veröffentlicht werden soll.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

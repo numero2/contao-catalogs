@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/catalogs/languages/de/tl_module.php" source-language="en">
+    <body>
+      <trans-unit id="tl_module.catalogs_catalog.0">
+        <source>Catalogs</source>
+        <target>Kataloge</target>
+      </trans-unit>
+      <trans-unit id="tl_module.catalogs_catalog.1">
+        <source>Please choose one or multiple catalogs.</source>
+        <target>Bitte wählen Sie einen oder mehrere Kataloge aus.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.catalogs_hide.0">
+        <source>Hide if reader acitve?</source>
+        <target>Bei aktivem Leser verstecken?</target>
+      </trans-unit>
+      <trans-unit id="tl_module.catalogs_hide.1">
+        <source>If list and reader are on the same page tick this option to automatically hide the list if the reader is active.</source>
+        <target>Wenn sich Liste und Leser auf der gleichen Seite befinden wählen Sie diese Option um die Liste automatisch zu verstecken sobald der Leser aktiv ist.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
