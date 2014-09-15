@@ -79,8 +79,10 @@ class ModuleList extends \Module
 		$objCatalogs = NULL;
 		$objCatalogs = \CatalogsModel::findMultipleByIds( deserialize($this->catalogs_catalog) );
 
+		$orderBy = empty($this->catalog_order_sql) ? 'title ASC' : $this->catalog_order_sql;
+
 		$objEntries = NULL;
-		$objEntries = \CatalogsEntriesModel::findPublishedByPids( deserialize($this->catalogs_catalog), 0, 0, array('order' => 'title ASC') );
+		$objEntries = \CatalogsEntriesModel::findPublishedByPids( deserialize($this->catalogs_catalog), 0, 0, array('order' => $orderBy) );
 
 		$entryCount = $objEntries->count();
 

@@ -10,12 +10,20 @@
         <target>Bitte wählen Sie einen oder mehrere Kataloge aus.</target>
       </trans-unit>
       <trans-unit id="tl_module.catalogs_hide.0">
-        <source>Hide if reader acitve?</source>
+        <source>Hide if reader active?</source>
         <target>Bei aktivem Leser verstecken?</target>
       </trans-unit>
       <trans-unit id="tl_module.catalogs_hide.1">
         <source>If list and reader are on the same page tick this option to automatically hide the list if the reader is active.</source>
         <target>Wenn sich Liste und Leser auf der gleichen Seite befinden wählen Sie diese Option um die Liste automatisch zu verstecken sobald der Leser aktiv ist.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.catalog_order_sql.0">
+        <source>ORDER SQL-Clause</source>
+        <target>ORDER SQL-Bedingung</target>
+      </trans-unit>
+      <trans-unit id="tl_module.catalog_order_sql.1">
+        <source>e.g. "fieldname ASC". If empty, entries will be ordered by title alphabetically.</source>
+        <target>z.B. "feldname ASC". Falls leer werden die Einträge nach dem Titel alphabetisch sortiert.</target>
       </trans-unit>
     </body>
   </file>

@@ -15,7 +15,7 @@
 /**
  * Add palettes to tl_module
  */
-$GLOBALS['TL_DCA']['tl_module']['palettes']['catalogslist']		= '{title_legend},name,headline,type;{config_legend},catalogs_catalog,catalogs_hide;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space';
+$GLOBALS['TL_DCA']['tl_module']['palettes']['catalogslist']		= '{title_legend},name,headline,type;{config_legend},catalogs_catalog,catalogs_hide,catalog_order_sql;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['catalogsdetails']	= '{title_legend},name,headline,type;{config_legend},{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space';
 
 
@@ -40,6 +40,15 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['catalogs_hide'] = array
 	'inputType'             => 'checkbox',
 	'eval'                  => array('tl_class'=>'w50'),
 	'sql'                  	=> "char(1) NOT NULL default ''"
+);
+
+$GLOBALS['TL_DCA']['tl_module']['fields']['catalog_order_sql'] = array
+(
+	'label'                 => &$GLOBALS['TL_LANG']['tl_module']['catalog_order_sql'],
+	'exclude'               => true,
+	'inputType'             => 'text',
+	'eval'                  => array('tl_class'=>'w50'),
+	'sql'                  	=> "varchar(255) NOT NULL default ''"
 );
 
 
