@@ -115,7 +115,7 @@ $GLOBALS['TL_DCA']['tl_catalogs'] = array
 			'inputType'     => 'text',
 			'eval'          => array('rgxp'=>'alias', 'unique'=>true, 'maxlength'=>128, 'tl_class'=>'w50'),
 			'save_callback' => array( array('tl_catalogs', 'generateAlias') ),
-			'sql'           => "varchar(128) COLLATE utf8_bin NOT NULL default ''"
+			'sql'           => "varchar(128) NOT NULL default ''"
 		),
 		'jumpTo' => array
 		(
